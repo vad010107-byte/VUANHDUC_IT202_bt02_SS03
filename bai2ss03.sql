@@ -1,3 +1,12 @@
+
+
+-- 1. Cấu trúc bảng ban đầu
+-- Tạo bảng
+CREATE TABLE SHIPPERS (
+    ShipperID INT AUTO_INCREMENT PRIMARY KEY,
+    ShipperName VARCHAR(255),
+    Phone VARCHAR(20)
+);
 INSERT INTO SHIPPERS (ShipperName, Phone)
 VALUES 
 ('Giao Hàng Nhanh', '0987654321'),
